@@ -1,0 +1,34 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<path id="arc0" d="M 260.0,200.0 A 60.0,60.0 0 0,1 170.0,251.96152422706632" fill="none"/>
+<path id="arc1" d="M 295.0,200.0 A 94.99999999999999,94.99999999999999 0 0,1 152.50000000000003,282.2724133595217" fill="none"/>
+<path id="arc2" d="M 330.0,200.0 A 129.99999999999997,129.99999999999997 0 0,1 135.00000000000006,312.583302491977" fill="none"/>
+<path id="arc3" d="M 170.0,251.96152422706632 A 60.0,60.0 0 0,1 169.99999999999997,148.03847577293368" fill="none"/>
+<path id="arc4" d="M 152.50000000000003,282.2724133595217 A 94.99999999999999,94.99999999999999 0 0,1 152.49999999999997,117.72758664047836" fill="none"/>
+<path id="arc5" d="M 135.00000000000006,312.583302491977 A 129.99999999999997,129.99999999999997 0 0,1 134.99999999999994,87.41669750802303" fill="none"/>
+<path id="arc6" d="M 169.99999999999997,148.03847577293368 A 60.0,60.0 0 0,1 260.0,199.99999999999997" fill="none"/>
+<path id="arc7" d="M 152.49999999999997,117.72758664047836 A 94.99999999999999,94.99999999999999 0 0,1 295.0,199.99999999999997" fill="none"/>
+<path id="arc8" d="M 134.99999999999994,87.41669750802303 A 129.99999999999997,129.99999999999997 0 0,1 330.0,199.99999999999997" fill="none"/>
+</defs>
+<circle cx="200" cy="200" r="149.99999999999997" fill="#F9C6CC"/>
+<circle cx="200" cy="200" r="114.99999999999999" fill="#FFFFFF"/>
+<circle cx="200" cy="200" r="80.0" fill="#C6E5B3"/>
+<circle cx="200" cy="200" r="30.0" fill="#FFFF99"/>
+<text x="200" y="200" font-size="16" font-weight="bold" text-anchor="middle" alignment-baseline="middle">Core</text>
+<text font-size="14" fill="green"><textPath href="#arc0" startOffset="50%" text-anchor="middle">Family unity</textPath></text>
+<text font-size="12" fill="black"><textPath href="#arc1" startOffset="50%" text-anchor="middle">Buy a house</textPath></text>
+<text font-size="10" fill="red"><textPath href="#arc2" startOffset="50%" text-anchor="middle">Burden</textPath></text>
+<text font-size="14" fill="green"><textPath href="#arc3" startOffset="50%" text-anchor="middle">Clarity, relief</textPath></text>
+<text font-size="12" fill="black"><textPath href="#arc4" startOffset="50%" text-anchor="middle">Don't buy</textPath></text>
+<text font-size="10" fill="red"><textPath href="#arc5" startOffset="50%" text-anchor="middle">Separation</textPath></text>
+<text font-size="14" fill="green"><textPath href="#arc6" startOffset="50%" text-anchor="middle">Liberation</textPath></text>
+<text font-size="12" fill="black"><textPath href="#arc7" startOffset="50%" text-anchor="middle">Be homeless</textPath></text>
+<text font-size="10" fill="red"><textPath href="#arc8" startOffset="50%" text-anchor="middle">Discomfort</textPath></text>
+<line x1="200" y1="200" x2="350.0" y2="200.0" stroke="#888" stroke-width="1"/>
+<line x1="200" y1="200" x2="125.00000000000003" y2="329.9038105676658" stroke="#888" stroke-width="1"/>
+<line x1="200" y1="200" x2="124.99999999999993" y2="70.09618943233426" stroke="#888" stroke-width="1"/>
+<path d="M 65.00000000000003,200.00000000000003 Q 102.28427945724303,253.66418792237417 232.5,256.29165124598853" stroke="blue" stroke-width="2" fill="none"/>
+<path d="M 232.5,256.29165124598853 L 223.74064006692424,261.1159246174743 L 223.94237673895464,251.11795970879626 Z" fill="blue"/>
+<path d="M 135.0,200.0 Q 202.3833102571404,311.4563903003155 267.5,316.91342951089916" stroke="purple" stroke-width="2" fill="none"/>
+<path d="M 267.5,316.91342951089916 L 258.4524413666645,321.17273494445953 L 259.2875539753919,311.20766660898164 Z" fill="purple"/>
+</svg>

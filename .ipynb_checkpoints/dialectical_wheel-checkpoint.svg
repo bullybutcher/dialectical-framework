@@ -1,0 +1,113 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<path id="arc_s0_l0" d="M 260.0,200.0 A 60.0,60.0 0 0,1 230.0,251.96152422706632" fill="none"/>
+<path id="arc_s0_l1" d="M 295.0,200.0 A 94.99999999999999,94.99999999999999 0 0,1 247.5,282.27241335952164" fill="none"/>
+<path id="arc_s0_l2" d="M 330.0,200.0 A 129.99999999999997,129.99999999999997 0 0,1 265.0,312.583302491977" fill="none"/>
+<path id="arc_s1_l0" d="M 230.0,251.96152422706632 A 60.0,60.0 0 0,1 170.0,251.96152422706632" fill="none"/>
+<path id="arc_s1_l1" d="M 247.5,282.27241335952164 A 94.99999999999999,94.99999999999999 0 0,1 152.50000000000003,282.2724133595217" fill="none"/>
+<path id="arc_s1_l2" d="M 265.0,312.583302491977 A 129.99999999999997,129.99999999999997 0 0,1 135.00000000000006,312.583302491977" fill="none"/>
+<path id="arc_s2_l0" d="M 170.0,251.96152422706632 A 60.0,60.0 0 0,1 140.0,200.0" fill="none"/>
+<path id="arc_s2_l1" d="M 152.50000000000003,282.2724133595217 A 94.99999999999999,94.99999999999999 0 0,1 105.00000000000001,200.0" fill="none"/>
+<path id="arc_s2_l2" d="M 135.00000000000006,312.583302491977 A 129.99999999999997,129.99999999999997 0 0,1 70.00000000000003,200.00000000000003" fill="none"/>
+<path id="arc_s3_l0" d="M 140.0,200.0 A 60.0,60.0 0 0,1 169.99999999999997,148.03847577293368" fill="none"/>
+<path id="arc_s3_l1" d="M 105.00000000000001,200.0 A 94.99999999999999,94.99999999999999 0 0,1 152.49999999999997,117.72758664047836" fill="none"/>
+<path id="arc_s3_l2" d="M 70.00000000000003,200.00000000000003 A 129.99999999999997,129.99999999999997 0 0,1 134.99999999999994,87.41669750802303" fill="none"/>
+<path id="arc_s4_l0" d="M 169.99999999999997,148.03847577293368 A 60.0,60.0 0 0,1 230.0,148.03847577293368" fill="none"/>
+<path id="arc_s4_l1" d="M 152.49999999999997,117.72758664047836 A 94.99999999999999,94.99999999999999 0 0,1 247.5,117.72758664047835" fill="none"/>
+<path id="arc_s4_l2" d="M 134.99999999999994,87.41669750802303 A 129.99999999999997,129.99999999999997 0 0,1 265.0,87.416697508023" fill="none"/>
+<path id="arc_s5_l0" d="M 230.0,148.03847577293368 A 60.0,60.0 0 0,1 260.0,199.99999999999997" fill="none"/>
+<path id="arc_s5_l1" d="M 247.5,117.72758664047835 A 94.99999999999999,94.99999999999999 0 0,1 295.0,199.99999999999997" fill="none"/>
+<path id="arc_s5_l2" d="M 265.0,87.416697508023 A 129.99999999999997,129.99999999999997 0 0,1 330.0,199.99999999999997" fill="none"/>
+</defs>
+<circle cx="200" cy="200" r="149.99999999999997" fill="#F9C6CC"/>
+<circle cx="200" cy="200" r="114.99999999999999" fill="#FFFFFF"/>
+<circle cx="200" cy="200" r="80.0" fill="#C6E5B3"/>
+<circle cx="200" cy="200" r="30.0" fill="#FFFF99"/>
+<text x="200" y="200" font-size="16" font-weight="bold" text-anchor="middle" alignment-baseline="middle">Core</text>
+<path id="slice0" d="M 200,200 L 350.0,200.0 A 150,150 0 0,1 275.0,329.9038105676658 Z" fill="none" stroke="#888" stroke-width="1" data-slice="0" style="cursor:pointer;"/>
+<text font-size="14" fill="green" text-anchor="middle" alignment-baseline="middle" class="slice-label" data-slice="0"><textPath href="#arc_s0_l0" startOffset="50%">Strategic power projection</textPath></text>
+<text font-size="14" fill="black" text-anchor="middle" alignment-baseline="middle" class="slice-label" data-slice="0"><textPath href="#arc_s0_l1" startOffset="50%">Putin initiates war</textPath></text>
+<text font-size="14" fill="red" text-anchor="middle" alignment-baseline="middle" class="slice-label" data-slice="0"><textPath href="#arc_s0_l2" startOffset="50%">Destructive aggression</textPath></text>
+<path id="slice1" d="M 200,200 L 275.0,329.9038105676658 A 150,150 0 0,1 125.00000000000003,329.9038105676658 Z" fill="none" stroke="#888" stroke-width="1" data-slice="1" style="cursor:pointer;"/>
+<text font-size="14" fill="green" text-anchor="middle" alignment-baseline="middle" class="slice-label" data-slice="1"><textPath href="#arc_s1_l0" startOffset="50%">Liberation and sovereignty protected</textPath></text>
+<text font-size="14" fill="black" text-anchor="middle" alignment-baseline="middle" class="slice-label" data-slice="1"><textPath href="#arc_s1_l1" startOffset="50%">Ukraine resists invasion</textPath></text>
+<text font-size="14" fill="red" text-anchor="middle" alignment-baseline="middle" class="slice-label" data-slice="1"><textPath href="#arc_s1_l2" startOffset="50%">Endless conflict and destruction</textPath></text>
+<path id="slice2" d="M 200,200 L 125.00000000000003,329.9038105676658 A 150,150 0 0,1 50.0,200.00000000000003 Z" fill="none" stroke="#888" stroke-width="1" data-slice="2" style="cursor:pointer;"/>
+<text font-size="14" fill="green" text-anchor="middle" alignment-baseline="middle" class="slice-label" data-slice="2"><textPath href="#arc_s2_l0" startOffset="50%">Ukrainian victory approaches</textPath></text>
+<text font-size="14" fill="black" text-anchor="middle" alignment-baseline="middle" class="slice-label" data-slice="2"><textPath href="#arc_s2_l1" startOffset="50%">Russian offensive weakens</textPath></text>
+<text font-size="14" fill="red" text-anchor="middle" alignment-baseline="middle" class="slice-label" data-slice="2"><textPath href="#arc_s2_l2" startOffset="50%">Military resources drain rapidly</textPath></text>
+<path id="slice3" d="M 200,200 L 50.0,200.00000000000003 A 150,150 0 0,1 124.99999999999993,70.09618943233426 Z" fill="none" stroke="#888" stroke-width="1" data-slice="3" style="cursor:pointer;"/>
+<text font-size="14" fill="green" text-anchor="middle" alignment-baseline="middle" class="slice-label" data-slice="3"><textPath href="#arc_s3_l0" startOffset="50%">Mutual understanding</textPath></text>
+<text font-size="14" fill="black" text-anchor="middle" alignment-baseline="middle" class="slice-label" data-slice="3"><textPath href="#arc_s3_l1" startOffset="50%">Peace negotiations</textPath></text>
+<text font-size="14" fill="red" text-anchor="middle" alignment-baseline="middle" class="slice-label" data-slice="3"><textPath href="#arc_s3_l2" startOffset="50%">Passive submission</textPath></text>
+<path id="slice4" d="M 200,200 L 124.99999999999993,70.09618943233426 A 150,150 0 0,1 275.0,70.0961894323342 Z" fill="none" stroke="#888" stroke-width="1" data-slice="4" style="cursor:pointer;"/>
+<text font-size="14" fill="green" text-anchor="middle" alignment-baseline="middle" class="slice-label" data-slice="4"><textPath href="#arc_s4_l0" startOffset="50%">Immediate peace achieved</textPath></text>
+<text font-size="14" fill="black" text-anchor="middle" alignment-baseline="middle" class="slice-label" data-slice="4"><textPath href="#arc_s4_l1" startOffset="50%">Ukraine surrenders to invasion</textPath></text>
+<text font-size="14" fill="red" text-anchor="middle" alignment-baseline="middle" class="slice-label" data-slice="4"><textPath href="#arc_s4_l2" startOffset="50%">Freedom and independence lost</textPath></text>
+<path id="slice5" d="M 200,200 L 275.0,70.0961894323342 A 150,150 0 0,1 350.0,199.99999999999997 Z" fill="none" stroke="#888" stroke-width="1" data-slice="5" style="cursor:pointer;"/>
+<text font-size="14" fill="green" text-anchor="middle" alignment-baseline="middle" class="slice-label" data-slice="5"><textPath href="#arc_s5_l0" startOffset="50%">Strategic military strength maintained</textPath></text>
+<text font-size="14" fill="black" text-anchor="middle" alignment-baseline="middle" class="slice-label" data-slice="5"><textPath href="#arc_s5_l1" startOffset="50%">Russian military dominance persists</textPath></text>
+<text font-size="14" fill="red" text-anchor="middle" alignment-baseline="middle" class="slice-label" data-slice="5"><textPath href="#arc_s5_l2" startOffset="50%">Total defeat inevitable</textPath></text>
+<path d="M 200.0,335.0 Q 239.3216015859733,317.00435357401045 256.29165124598853,232.5" stroke="blue" stroke-width="2" fill="none"/>
+<path d="M 256.29165124598853,232.5 L 259.4886827847866,241.9751775360639 L 249.6844225637886,240.00629929733117 Z" fill="blue"/>
+<path d="M 200.0,265.0 Q 281.667941755483,292.55568267794854 316.9134295108992,267.5" stroke="purple" stroke-width="2" fill="none"/>
+<path d="M 316.9134295108992,267.5 L 312.75199586531164,276.59299015799377 L 306.95795221492097,268.44258782575474 Z" fill="purple"/>
+
+<script type="application/ecmascript">
+(function() {
+    function toRad(deg) { return deg * Math.PI / 180; }
+    var cx = 200, cy = 200, radius = 150;
+    var n = 6;
+    var slices = Array.from(document.querySelectorAll('path[data-slice]'));
+    var labelArcs = Array.from(document.querySelectorAll('path[id^="arc_s"]'));
+    var labelMap = [('arc_s0_l0', 0, 0, 60.0, 0, 60.0), ('arc_s0_l1', 0, 1, 94.99999999999999, 0, 60.0), ('arc_s0_l2', 0, 2, 129.99999999999997, 0, 60.0), ('arc_s1_l0', 1, 0, 60.0, 60.0, 120.0), ('arc_s1_l1', 1, 1, 94.99999999999999, 60.0, 120.0), ('arc_s1_l2', 1, 2, 129.99999999999997, 60.0, 120.0), ('arc_s2_l0', 2, 0, 60.0, 120.0, 180.0), ('arc_s2_l1', 2, 1, 94.99999999999999, 120.0, 180.0), ('arc_s2_l2', 2, 2, 129.99999999999997, 120.0, 180.0), ('arc_s3_l0', 3, 0, 60.0, 180.0, 240.0), ('arc_s3_l1', 3, 1, 94.99999999999999, 180.0, 240.0), ('arc_s3_l2', 3, 2, 129.99999999999997, 180.0, 240.0), ('arc_s4_l0', 4, 0, 60.0, 240.0, 300.0), ('arc_s4_l1', 4, 1, 94.99999999999999, 240.0, 300.0), ('arc_s4_l2', 4, 2, 129.99999999999997, 240.0, 300.0), ('arc_s5_l0', 5, 0, 60.0, 300.0, 360.0), ('arc_s5_l1', 5, 1, 94.99999999999999, 300.0, 360.0), ('arc_s5_l2', 5, 2, 129.99999999999997, 300.0, 360.0)];
+    function enlargeSlice(idx) {
+        var bigAngle = 120; // 1/3 of circle
+        var smallAngle = (360 - bigAngle) / (n-1);
+        var angles = Array(n).fill(smallAngle);
+        angles[idx] = bigAngle;
+        var current = 0;
+        for (let i=0; i<n; ++i) {
+            let start = current;
+            let end = current + angles[i];
+            let startRad = toRad(start);
+            let endRad = toRad(end);
+            let x1 = cx + radius * Math.cos(startRad);
+            let y1 = cy + radius * Math.sin(startRad);
+            let x2 = cx + radius * Math.cos(endRad);
+            let y2 = cy + radius * Math.sin(endRad);
+            let largeArc = angles[i] > 180 ? 1 : 0;
+            let d = `M ${x1},${y1} A ${radius},${radius} 0 ${largeArc},1 ${x2},${y2} Z`;
+            slices[i].setAttribute('d', d);
+            current += angles[i];
+        }
+        // Update label arcs
+        current = 0;
+        for (let k=0; k<labelMap.length; ++k) {
+            let [arc_id, i, j, r, _, __] = labelMap[k];
+            let angle = angles[i];
+            let start = current;
+            let end = current + angle;
+            let startRad = toRad(start);
+            let endRad = toRad(end);
+            let x1 = cx + r * Math.cos(startRad);
+            let y1 = cy + r * Math.sin(startRad);
+            let x2 = cx + r * Math.cos(endRad);
+            let y2 = cy + r * Math.sin(endRad);
+            let largeArc = angle > 180 ? 1 : 0;
+            let arcPath = `M ${x1},${y1} A ${r},${r} 0 ${largeArc},1 ${x2},${y2}`;
+            var arcElem = document.getElementById(arc_id);
+            if (arcElem) arcElem.setAttribute('d', arcPath);
+            if (j === slices[i].getAttribute('data-nlabels')-1) current += angle;
+        }
+    }
+    // Store n_labels per slice for correct arc updating
+    slices.forEach((slice, i) => {
+        let nlabels = document.querySelectorAll(`.slice-label[data-slice='${i}']`).length;
+        slice.setAttribute('data-nlabels', nlabels);
+        slice.addEventListener('click', () => enlargeSlice(i));
+    });
+})();
+</script>
+
+</svg>
