@@ -1,0 +1,102 @@
+#################################################################
+# Render Blueprint for Dialectical Framework                   #
+# A dialectical framework for augmented intelligence           #
+#################################################################
+
+previews:
+  generation: automatic # Enable preview environments
+
+services:
+  # Main FastAPI web service
+  - type: web
+    runtime: python
+    name: dialectical-framework-api
+    region: singapore # Default region
+    plan: starter # Can be upgraded to standard or pro as needed
+    branch: main # Adjust if your main branch has a different name
+    
+    # Build configuration
+    buildCommand: |
+      pip install poetry &&
+      poetry config virtualenvs.create false &&
+      poetry install --only=main
+    
+    # Start command for FastAPI with uvicorn
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    
+    # Health check endpoint
+    healthCheckPath: /docs # FastAPI auto-generates docs at /docs
+    
+    # Auto-deploy configuration
+    autoDeploy: true # Enable automatic deploys on git push
+    
+    # Environment variables
+    envVars:
+      # Required environment variables for the framework
+      - key: DIALEXITY_DEFAULT_MODEL
+        value: gpt-4 # Default model name
+      
+      - key: DIALEXITY_DEFAULT_MODEL_PROVIDER
+        value: openai # Model provider
+        
+      # OpenAI API Key (prompt for value during setup)
+      - key: OPENAI_API_KEY
+        sync: false # Prompts for value in dashboard
+        
+      # Optional: Other AI provider API keys
+      - key: ANTHROPIC_API_KEY
+        sync: false
+        
+      - key: AZURE_OPENAI_API_KEY
+        sync: false
+        
+      - key: AZURE_OPENAI_ENDPOINT
+        sync: false
+        
+      # FastAPI environment
+      - key: PYTHONPATH
+        value: /opt/render/project/repo/src
+        
+      - key: ENVIRONMENT
+        value: production
+        
+      # Port is automatically set by Render
+      # - key: PORT (automatically provided by Render)
+
+    # Custom domains (uncomment and modify as needed)
+    # domains:
+    #   - your-domain.com
+    #   - www.your-domain.com
+
+# Environment groups for shared configuration
+envVarGroups:
+  - name: ai-models-config
+    envVars:
+      - key: DEFAULT_TEMPERATURE
+        value: "0.7"
+      
+      - key: DEFAULT_MAX_TOKENS
+        value: "1000"
+      
+      - key: RATE_LIMIT_REQUESTS_PER_MINUTE
+        value: "60"
+
+# Optional: If you need persistent storage for sessions
+# databases:
+#   - name: dialectical-framework-db
+#     databaseName: dialectical_framework
+#     user: admin
+#     plan: starter # free tier available
+#     
+#     # IP access control (allow connections from anywhere)
+#     ipAllowList:
+#       - source: 0.0.0.0/0
+#         description: Allow all connections
+
+# Optional: Redis for session storage
+# - type: keyvalue
+#   name: sessions-cache
+#   plan: free
+#   ipAllowList:
+#     - source: 0.0.0.0/0
+#       description: Allow all connections 
