@@ -12,7 +12,7 @@ from dialectical_framework.synthesist.factories.wheel_builder_config import Whee
 from dialectical_framework.wheel import Wheel
 from dialectical_framework.wisdom_unit import WisdomUnit
 
-user_message = "Putin started the war, Ukraine will not surrender and will finally win!"
+user_message = "I got admitted to Stanford University for college but my girlfriend would probably break up with me if I don't go with her to Ateneo de Manila University. Ateneo is the highest ranked university in the Philippines in my country but nowhere near as reputable as Stanford."
 
 # Examples
 example_wu1 = WisdomUnit(
