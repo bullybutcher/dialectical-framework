@@ -12,7 +12,7 @@ services:
     runtime: python
     name: dialectical-framework-api
     region: singapore # Default region
-    plan: starter # Can be upgraded to standard or pro as needed
+    plan: hobby # Can be upgraded to standard or pro as needed
     branch: main # Adjust if your main branch has a different name
     
     # Build configuration
