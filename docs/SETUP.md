@@ -19,7 +19,7 @@ poetry install
 ```
 
 If there is an existing `poetry.lock` file and changes have been made to `pyproject.toml`, run this:
-```
+```bash
 poetry lock && poetry install
 ```
 
